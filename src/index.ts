@@ -13,23 +13,12 @@ Possui nome, id, senha e saldo
 Nome, id senha são fornecidos na criação
 Saldo sempre começa em 0*/
 
+import { Bank } from "./classes/BankAccount"
 
 
-class Bank  {
-  nome: string
-  saldo: number
-  id: string
-  senha: number
-  constructor(nomeFornecido: string, saldoFornecido: number, idFornecido: string, senhaFornecido: number)
-   {
-  this.nome = nomeFornecido
-  this.saldo = saldoFornecido = 1
-  this.id = idFornecido
-  this.senha = senhaFornecido
-  }
-  bankvalor () {
-    console.log(this.saldo)
-   }
-} 
-const bank = new Bank("Banerj ", 1000)
-     
+
+
+const bank1 = new Bank("Banerj ", 999 , "6867-c ", "976431")
+    
+
+
