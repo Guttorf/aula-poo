@@ -21,7 +21,6 @@ export class Transction {
 
 
 
-
 // A classe, guarda o valor da transação
 // um ID de conta destinatário
 // Guarda o ID do remetente
