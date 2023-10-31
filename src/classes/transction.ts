@@ -1,5 +1,5 @@
 // Criar uma classe chamada transction
-export class Transction {
+export class Transaction {
     idRemetente: number;
     idDestinatario: number;
     valor: number;
@@ -12,7 +12,7 @@ export class Transction {
       this.valor =  valorfornecido;
       this.dateDeCriacao = new Date() 
     }
-      
+     
 }
 
 

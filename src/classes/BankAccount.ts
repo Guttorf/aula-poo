@@ -3,7 +3,8 @@ export class Bank  {
     saldo: number
     id: string
     senha: String
-    constructor(nomeFornecido: string, saldoFornecido: number, idFornecido: string, senhaFornecido: String)
+    aterada: any 
+       constructor(nomeFornecido: string, saldoFornecido: number, idFornecido: string, senhaFornecido: String)
     {
     this.nome = nomeFornecido
     this.saldo = saldoFornecido 
@@ -27,4 +28,20 @@ export class Bank  {
       return this.saldo += v
       } 
     } 
+    
+    export class Transaction {
+      idRemetente: string;
+      idDestinatario: string;
+      valor: number;
+      dateDeCriacao: Date;
   
+  
+      constructor(idRemetentefornecido: string, idDestinatariofornecido: string, valorfornecido: number)
+      { this.idRemetente = idRemetentefornecido = "313146gyvh";
+        this.idDestinatario = idDestinatariofornecido = "hd@312654465" ;
+        this.valor =  valorfornecido = 100;
+        this.dateDeCriacao = new Date() 
+      }
+      
+  }
+ 
