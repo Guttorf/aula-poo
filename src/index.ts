@@ -44,5 +44,8 @@ Saldo sempre começa em 0*/
 
  import { aluno } from "./aluno";
  
- const als1 = new aluno("robert", 13, "105a" )
- 
+
+ const aluno1 = new aluno("Robert ", 1, "105a")
+ const aluno2 = new aluno("Denis ", 2, "1g2f3d5e6 ")
+ const aluno3 = new aluno("Caio ", 3,"1f5d6w8w6e ")
+ const aluno4 = new aluno("Alice " , 4,"4e5e6l99 ")
