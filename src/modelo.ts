@@ -1,15 +1,15 @@
-// class Empregado {
-//     nome: string;
-//     salario: number;
-//     id: number;
-//     setor: number;
-//     constructor(nome: string, salario: number, id: number, setor: number) {
-//       this.nome = nome;
-//       this.salario = salario;
-//       this.id = id;
-//       this.setor = setor;
-//     }
-  // }
+class Empregado {
+    nome: string;
+    salario: number;
+    id: number;
+    setor: number;
+    constructor(nome: string, salario: number, id: number, setor: number) {
+      this.nome = nome;
+      this.salario = salario;
+      this.id = id;
+      this.setor = setor;
+    }
+  }
 
   const er = new Empregado("rafael",1,1,1)
   

@@ -42,10 +42,25 @@ Saldo sempre começa em 0*/
 
 
 
- import { aluno } from "./aluno";
+//  import { aluno } from "./aluno";
  
 
- const aluno1 = new aluno("Robert ", 1, "105a")
- const aluno2 = new aluno("Denis ", 2, "1g2f3d5e6 ")
- const aluno3 = new aluno("Caio ", 3,"1f5d6w8w6e ")
- const aluno4 = new aluno("Alice " , 4,"4e5e6l99 ")
+//  const aluno1 = new aluno("Robert ", 1, "105a")
+//  const aluno2 = new aluno("Denis ", 2, "1g2f3d5e6 ")
+//  const aluno3 = new aluno("Caio ", 3,"1f5d6w8w6e ")
+//  const aluno4 = new aluno("Alice " , 4,"4e5e6l99 ")
+
+//  console.log (aluno1, '\n') 
+
+//  console.log (aluno2, '\n')
+
+
+//  console.log (aluno3,'\n')
+ 
+//  console.log (aluno4,'\n')
+
+ import { alunotransferido } from "./aluno";
+
+ const al1 = new alunotransferido("aaa",1,"312313", "213123")
+
+ console.log(al1.transfereAluno())

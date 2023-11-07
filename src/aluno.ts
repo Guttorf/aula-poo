@@ -10,15 +10,19 @@ export class aluno {
 }
 const als = new aluno("João ", 13, " 1a5b6c8d ")
 
-class alunotransferido extends aluno {
-  saladetransferencia: string
+export class alunotransferido extends aluno {
+  alunotransferido: string
 
   constructor(nome: string, id: number,  matricula: string, saladetransferencia: string) {
     super(nome, id, matricula)
-    this.saladetransferencia = saladetransferencia
+    this.alunotransferido = "alunotransferido"
      }
-     dadosdoaluno() {
-      return
+     dadosdoaluno (m:string) {
+      super.matricula = m
+     }
+    
+     transfereAluno () {
+      return "Traansferencia bem sucedida!"
      }
 }
- console.log()
+
