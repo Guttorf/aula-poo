@@ -59,8 +59,38 @@ Saldo sempre começa em 0*/
  
 //  console.log (aluno4,'\n')
 
- import { alunotransferido } from "./aluno";
+//  import { alunotransferido } from "./aluno";
 
- const al1 = new alunotransferido("aaa",1,"312313", "213123")
+//  const al1 = new alunotransferido("aaa",1,"312313", "213123")
 
- console.log(al1.transfereAluno())
+//  console.log(transfereAluno)
+
+
+
+// const Relogio = {
+//   nome: " Rolex ",
+//   valor: 1500
+//   id: 134679
+// }
+
+// 1 metodo com parametro
+
+
+const calendario = {
+  nome: "folinha ",
+  Date() {let dat = new calendario { DateTime = DateTime.Now };
+  return Date(dat);
+  
+    
+  }
+}
+
+console.log(calendario.nome)
+
+//1 metodo sem parametro
+
+// const Relogio1 = {
+//   nome: " Rolex ",
+//   hora () {}
+// }
+// hora()
