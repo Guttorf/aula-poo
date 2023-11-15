@@ -76,12 +76,12 @@ Saldo sempre começa em 0*/
 // 1 metodo com parametro
 
 
-const calendario = {
-  nome: "folinha ",
-  Date() {  }
-}
+// const calendario = {
+//   nome: "folinha ",
+//   Date() {  }
+// }
 
-calendario.Date(  )
+// calendario.Date(  )
 
 //1 metodo sem parametro
 
@@ -90,3 +90,61 @@ calendario.Date(  )
 //   hora () {}
 // }
 // hora()
+
+class pessoa {
+  private nome: string;
+  private idade: number;
+  private sexo: string;
+  private endereco: string;
+
+constructor (nomefornecido: string, idadefornecida: number, sexofornecido: string, enderecofornecido: string)
+{
+this.nome = nomefornecido;
+this.idade = idadefornecida;
+this.sexo = sexofornecido;
+this.endereco = enderecofornecido;
+}
+
+getNome (nome: string) 
+{
+  return this.nome; 
+}
+
+setNome (nome: string)
+{
+this.nome = nome;
+}
+
+getIdade (idade: number) 
+{
+return this.idade;
+}
+setIdade (idade: number)
+{
+this.idade = idade;
+}
+
+getSexo (sexo: string)
+{
+  return this.sexo;
+}
+setSexo (sexo: string)
+{
+  this.sexo = sexo;
+}
+
+getEndereco ( endereco: string)
+{
+  return this.endereco;
+}
+
+setEndereco (endereco: string)  
+{
+  this.endereco = endereco;
+}
+ 
+}
+
+const pessoaAlex = new pessoa("Alex ", 22, "Masculino", "Rua do Ouvidor")
+pessoaAlex.setNome("Jujuba")
+console.log(pessoaAlex)
