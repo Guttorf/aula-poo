@@ -78,14 +78,10 @@ Saldo sempre começa em 0*/
 
 const calendario = {
   nome: "folinha ",
-  Date() {let dat = new calendario { DateTime = DateTime.Now };
-  return Date(dat);
-  
-    
-  }
+  Date() {  }
 }
 
-console.log(calendario.nome)
+calendario.Date(  )
 
 //1 metodo sem parametro
 
